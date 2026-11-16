@@ -2,7 +2,7 @@
 from random import randint #importando da biblioteca "RANDOM", modo "RANDINT", de randomizar numeros
 computador = randint(0,5)#randonmiza de 0 a 5
 print("-=-="*17)
-print("     Vou pensar em um número  entre 0 e 5. Tente adivinhar... ")
+print("     Vou pensar em um número  entre 0 e 5 Tente adivinhar... (números inteiros) ")
 print("-=-="*17)
 jogador = int(input("Em que número eu pensei? "))#jogador tentar adivinhar
 print("PROCESSANDO...")
